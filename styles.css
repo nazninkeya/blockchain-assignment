@@ -1,0 +1,386 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: cadetblue;
+}
+.navber {
+background-color: forestgreen;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+padding-right: 20px;
+padding-left: 20px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logos a{
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+.btn{
+    background-color: black;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 90px;
+    color: white;
+   
+
+}
+/* section 2 */
+.banner{
+    display: flex;
+    margin: 15px auto;
+    width: 80%;
+}
+.left1{
+    color: white;
+}
+.left1 h2{
+    font-size: 42px;
+}
+.right1 img{
+    max-width: 470px;
+    float: right;
+    border: 3px solid white;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-left: 15px;
+}
+.left1 p{
+    font-size: 16px;
+}
+.left1 button{
+    background-color: black;
+    color: aliceblue;
+    
+    margin-left: 0px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 90px;
+
+}
+/* section 3 our clients */
+/* .ourclients{
+   display: flex;
+   align-items: center;
+   
+} */
+.ourclients{
+   color: white;
+    align-items: center;
+    margin-left: 200px;
+
+}
+.ourclients h2{
+    font-size: 38px;
+}
+.ourclients h3{
+    font-size: 16px;
+    margin-left: 400px;
+}
+.taggg{
+    display: flex;
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+   }
+.taggg a{
+    margin-right: 60px;
+    
+   
+}
+/* section 4 power of blockchain */
+.power{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.power p{
+    margin-left: 70px;
+}
+
+.powerbl{
+    color: white;
+  
+    
+}
+
+.powerbl h2 {
+    font-size: 38px;
+
+}
+.powerbl h2 
+.powerbl p{
+    font-size: 16px;
+}
+.key{
+    color: white;
+    display: flex;
+    margin-top: 30px;
+    max-width: 80%;
+    margin-left: 150px;
+    justify-content: space-around;
+}
+/* section 4
+ */
+
+ .help{
+    display: flex;
+    max-width: 80%;
+    /* justify-content: space-between; */
+    margin-top: 50px;
+    margin-left: 100px;
+    color: white;
+    justify-content: space-around;
+    margin-bottom: 50px;
+ }
+ .transform{
+    display: flex;
+
+    
+ }
+ .net{
+     display: flex;
+     margin-bottom: 25px;
+
+ }
+ .net a{
+    font-size: 25px;
+ }
+  .trans{
+    margin-top: 50px;
+ }
+ .trans h2{
+    font-size: 38px;
+ }
+ 
+ 
+ .world{
+    justify-content: space-around;
+    margin-top: 40px;
+
+ }
+ .total{
+    display: flex;
+    justify-content: space-around;
+    
+ }
+.total a {
+    font-size: 30px;
+}
+.second{
+    
+    margin-left: 25px;
+    margin-top: 40px;
+ }
+ .smart{
+    display: flex;
+    margin-bottom: 25px;
+ }
+
+ .smart a {
+    font-size: 30px;
+ }
+ .active{
+    display: flex;
+    
+ } 
+ .active a{
+    font-size: 30px;
+ }
+ /* section 6 */
+
+ .future{
+    color: white;
+    max-width: 80%;
+    margin-left: 300px;
+    margin-bottom: 50px;
+ }
+ .future h2{
+    font-size: 38px;
+ }
+ .future p{
+    margin-left: 100px;
+ }
+   
+
+ .card{
+
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    
+   
+ }
+ .block{
+    width: 325px;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 2px,2px,4px rgb(112, 20, 20);
+    margin: 20px;
+    background-color: chartreuse;
+ }
+ .block img{
+    width: 100%;
+ height: 8cm;
+ border-radius: 3px;
+
+ }
+ .card p{
+    font-size: 15px;
+    margin-bottom: 8px;
+   margin-left: 8px;
+ }
+
+ .card .button{
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+ }
+ .block:hover .hovv{
+    height: 120px;
+    bottom: 220px;
+    background: white;
+    color: black;
+    cursor: pointer;
+ }
+
+ /* sec7 */
+
+ .contact{
+    width: 90%;
+    display: flex;
+    /* justify-content: space-around; */
+   margin-left: 50px;
+   margin-right: 20px;
+   background-color: black;
+   color: wheat;
+   margin-bottom: 30px;
+   align-items: center;
+   padding: 10px;
+   box-sizing: border-box;
+  
+
+ }
+.contact img{
+    width: 470px;
+    margin-top: 30px;
+    padding: 5px;
+    margin-left: 60px;
+}
+form input,
+form textarea{
+    display: block;
+    width: 100px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: wheat;
+    color: black;
+    margin-left: 70px;
+
+}
+
+form button{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    margin-left: 70px;
+}
+.us h1{
+font-size: 34px;
+margin-left: 70px;
+
+}
+.footer{
+    display: flex;
+    margin-left: 20px;
+    width: 95%;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+    border-radius: 9px;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+.footer p{
+    font-size: 9px;
+}
+.foot{
+    margin-left: 70px;
+}
+.sign a{
+    font-size: 1em;
+    margin-right: 10px;
+    
+}
+.sign{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.company{
+    margin-left: 90px;
+}
+.company a{
+    list-style: none;
+    display: block;
+    color: white;
+    justify-content: space-around;
+
+}
+.support{
+    margin-left: 90px;
+}
+.support a{
+    list-style: none;
+    display: block;
+color: white;
+}
+.date{
+    margin-left: 90px;
+}
+.date form input{
+   padding: 10px;
+   width: 150px;
+   
+}
+.date h1{
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
